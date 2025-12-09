@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totally Secure Website</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .hidden-flag {
+            display: none;
+            /* You can't see me! */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the Secure Vault</h1>
+    <p>Only the worthy can find the flag.</p>
+
+    <button onclick="alert('Not here!')">Click for Flag</button>
+
+    <!-- 
+        TODO: Remove this before production
+        API_KEY = "IECSE{w3b_1nsp3ct0r_g0d}" 
+    -->
+
+    <div class="hidden-flag">
+        You found part 2: _but_can_you_find_part_1?
+    </div>
+
+    <script>
+        console.log("Nothing to see here...");
+    </script>
+</body>
+
+</html>
